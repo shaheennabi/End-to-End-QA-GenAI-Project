@@ -1,15 +1,20 @@
 import os
 from pathlib import Path
 
-project_name = "us_visa"
+project_name = "QAChatbot"
+
 
 list_of_files = [
-
-    f"{project_name}/__init__.py",
-   
-
+    "QAWithPDF/__init__.py",
+    "QAWithPDF/data_ingestion.py",
+    "QAWithPDF/embeddings.py",
+    "QAWithPDF/model_api.py",
+    "Experiments/experiment.ipynb",
+    "StreamlitApp.py",
+    "logger.py",
+    "exception.py",
+    "setup.py"
 ]
-
 
 
 for filepath in list_of_files:
