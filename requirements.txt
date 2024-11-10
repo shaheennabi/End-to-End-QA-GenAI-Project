@@ -7,3 +7,5 @@ IPython
 llama-index-embeddings-gemini
 streamlit
 ipykernel
+
+-e .
